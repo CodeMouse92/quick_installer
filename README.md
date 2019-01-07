@@ -1,6 +1,6 @@
 # CodeMouse92's Quick Installer
 
-This is a script I use to quickly install recommended packages on systems I am repairing.
+This is a script I use to quickly install recommended packages on my OEM installations of Ubuntu.
 It automatically adds the official or best PPAs for packages, when possible. See the
 `-h` command for help.
 
