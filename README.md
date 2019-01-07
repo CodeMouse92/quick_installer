@@ -18,3 +18,18 @@ wget https://github.com/CodeMouse92/quick_installer/blob/master/quick_installer.
 chmod +x quick_installer.sh
 ./quick_installer.sh
 ```
+
+## Usage
+To use, simply invoke with one or more options. See `-h` for the complete list of options.
+
+```bash
+./quick_installer.sh -h
+```
+
+For example, to install the recommended office and reference packages, run...
+
+```bash
+./quick_installer.sh -or
+```
+
+**I strongly recommend deleting this package when you're done using it.**
