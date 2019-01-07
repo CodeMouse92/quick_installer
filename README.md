@@ -32,4 +32,4 @@ For example, to install the recommended office and reference packages, run...
 ./quick_installer.sh -or
 ```
 
-**I strongly recommend deleting this package when you're done using it.**
+**I strongly recommend deleting the script from your home folder when you're done using it.**
