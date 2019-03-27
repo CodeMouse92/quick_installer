@@ -282,7 +282,7 @@ while getopts ":cdfgopruzhL" opt; do
             ;;
         r)
             echo "Reference & Education"
-            install_referece
+            install_reference
             ;;
         u)
             echo "Upgrades"
