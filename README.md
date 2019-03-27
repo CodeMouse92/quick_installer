@@ -14,7 +14,7 @@ The `-L` option will list the packages and their sources.
 To download and use this script, run the following in your home folder.
 
 ```bash
-wget https://github.com/CodeMouse92/quick_installer/blob/master/quick_installer.sh
+wget https://github.com/CodeMouse92/quick_installer/raw/master/quick_installer.sh
 chmod +x quick_installer.sh
 ./quick_installer.sh
 ```
