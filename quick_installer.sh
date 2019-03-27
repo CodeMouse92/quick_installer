@@ -22,13 +22,13 @@ function install_development {
 
     # C++
     wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
-    sudo add-apt-repository -y "deb http://apt.llvm.org/`lsb_release -sc`/ llvm-toolchain-`lsb_release -sc`-6.0 main"
+    sudo add-apt-repository -y "deb http://apt.llvm.org/`lsb_release -sc`/ llvm-toolchain-`lsb_release -sc` main"
     sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 
     sudo apt install -y python-lldb-6.0
     sudo apt install -y clang-6.0 clang-6.0-doc libclang-common-6.0-dev libclang-6.0-dev libclang1-6.0 libclang1-6.0-dbg libllvm6.0 libllvm6.0-dbg lldb-6.0 llvm-6.0 llvm-6.0-dev llvm-6.0-doc llvm-6.0-examples llvm-6.0-runtime clang-format-6.0 python-clang-6.0 libfuzzer-6.0-dev
     sudo ln -sf /usr/bin/llvm-symbolizer-6.0 /usr/bin/llvm-symbolizer
-    sudo ln -sf /usr/bin/lldb-server-6.0 /usr/lib/llvm-5.0/bin/lldb-server-6.0.0
+    sudo ln -sf /usr/bin/lldb-server-6.0 /usr/lib/llvm-6.0/bin/lldb-server-6.0.0
     sudo apt install -y gcc g++ gcc-8 g++-8 gcc-8-doc gcc-8-multilib g++-8-multilib libc6-dev-i386
     sudo apt install -y cccc cppcheck
 
