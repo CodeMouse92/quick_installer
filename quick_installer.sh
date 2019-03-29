@@ -71,7 +71,7 @@ function install_office {
     sudo add-apt-repository -y ppa:libreoffice/ppa
     sudo add-apt-repository -y ppa:andreasbutti/xournalpp-master
 
-    sudo apt install -y calibre dia focuswriter glabel gnome-calendar gnome-clocks gnome-todo gramps hexchat homebank libreoffice planner xournalpp
+    sudo apt install -y calibre dia focuswriter glabels gnome-calendar gnome-clocks gnome-todo gramps hexchat homebank libreoffice planner xournalpp
 }
 
 function install_production {
@@ -214,7 +214,7 @@ function show_package_list {
     echo "  * calibre (main)"    
     echo "  * dia (main)"
     echo "  * focuswriter (main)"
-    echo "  * glabel (main)"
+    echo "  * glabels (main)"
     echo "  * gnome-calendar (main)"
     echo "  * gnome-clock (main)"
     echo "  * gnome-todo (main)"
