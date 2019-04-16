@@ -78,11 +78,11 @@ function install_production {
     sudo add-apt-repository -y ppa:ubuntuhandbook1/audacity
     sudo add-apt-repository -y ppa:audio-recorder/ppa
     sudo add-apt-repository -y ppa:stebbins/handbrake-releases
-    sudo add-apt-repository -y ppa:mscore-ubuntu/mscore-stable
+    sudo add-apt-repository -y ppa:mscore-ubuntu/mscore3-stable
     sudo add-apt-repository -y ppa:ubuntuhandbook1/dvdstyler
     sudo add-apt-repository -y ppa:obsproject/obs-studio
 
-    sudo apt install -y ardour audacity audio-recorder dvdstyler handbrake hydrogen hydrogen-drumkits hydrogen-drumkits-effects kdenlive lmms musescore obs-studio qjackctl
+    sudo apt install -y ardour audacity audio-recorder dvdstyler handbrake hydrogen hydrogen-drumkits hydrogen-drumkits-effects kdenlive lmms musescore3 obs-studio qjackctl
 }
 
 function install_reference {
